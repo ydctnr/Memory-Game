@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Slider from './Slider';
 import { useWindowSize } from 'react-use';
 import Confetti from 'react-confetti';
+import { Icon } from '../assets/index';
 
 const Celebration = ({ moves }) => {
   const { width, height } = useWindowSize();
@@ -21,17 +22,17 @@ const Celebration = ({ moves }) => {
               <h1 className="uppercase tracking-wider text-3xl max-md:text-lg">
               Congratulations !!!
               </h1>
-              <div className="flex items-center gap-5">
+              <div className="flex items-center gap-5 max-md:gap-2">
                 <img
-                src="src/assets/confetti.png"
+                src={Icon}
                 alt="Confetti"
                 className="w-10"
                 />
-                <p className="max-md:text-xs">You've finished the game.</p>
+                <p className="max-md:text-xs max-md:min-w-max">You've finished the game.</p>
                 <img
-                src="src/assets/confetti.png"
+                src={Icon}
                 alt="Confetti rotated"
-                className="w-10 rotate-[270deg]"
+                className="w-10 max-md:w-7 rotate-[270deg]"
                 />
               </div>
               <div

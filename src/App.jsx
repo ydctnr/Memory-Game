@@ -1,7 +1,6 @@
 import backgroundImg from './assets/memory-game-08.jpg';
 import Card from './components/Card';
 
-
 const App = () => {
   return (
     <div

@@ -70,5 +70,5 @@ export {
     hard11,
     hard12,
 
-    Icon
+    Icon,
 }
