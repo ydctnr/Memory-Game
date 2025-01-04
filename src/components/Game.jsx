@@ -105,7 +105,7 @@ const Game = ({ gridType }) => {
         </div>
       ) : (
         <>
-          <div className="w-full flex flex-col gap-6 items-center text-center bg-[#5BA17Cff] py-7 px-10 border-8 border-[#F6F8F9ff]">
+          <div className="w-full flex flex-col gap-6 items-center text-center bg-[#5BA17Cff] py-7 px-10 max-md:px-7 border-8 border-[#F6F8F9ff]">
             <h1 className="tracking-wider text-xl underline mb-4">
               MEMORY GAME 
             </h1>
